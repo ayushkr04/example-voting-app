@@ -8,7 +8,7 @@ metadata:
 
 spec:
   containers:
-    name: result-pod
-    image: dockersamples/examplevotingapp_result
-    ports:
-      -  containerPort: 80
+    - name: result-pod
+      image: dockersamples/examplevotingapp_result
+      ports:
+        - containerPort: 80
